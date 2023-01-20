@@ -1,12 +1,12 @@
 {
   "name": "ldv",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "simple command to generate components and views in vue 3",
   "main": "index.js",
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gDenisLit/dlv-vue-commands.git"
+    "url": "git+https://github.com/gDenisLit/ldv-vue-commands.git"
   },
   "keywords": [
     "vue",

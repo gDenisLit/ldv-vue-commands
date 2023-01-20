@@ -29,7 +29,7 @@ program.parse(process.argv)
 async function generateCmp(cmpName) {
     console.log(process.cwd())
     const cmpPath = join(process.cwd(), 'src', 'components', cmpName)
-    const styleImport = `@import '${join('.', 'components', cmpName, `${cmpName}.scss`)}'`
+    const styleImport = `@import './components/${cmpName}/${cmpName}.scss'`
 
     try {
         await mkdir(cmpPath, { recursive: true })
@@ -45,7 +45,7 @@ async function generateCmp(cmpName) {
 
 async function generateView(viewName) {
     const cmpPath = join(process.cwd(), 'src', 'views', viewName)
-    const styleImport = `@import '${join('.', 'views', viewName, `${viewName}.scss`)}'`
+    const styleImport = `@import './views/${cmpName}/${cmpName}.scss'`
 
     try {
         await mkdir(cmpPath, { recursive: true })
@@ -61,7 +61,7 @@ async function generateView(viewName) {
 
 function getTemplate(cmpName) {
     return `<template>
-
+<h2>Im ${cmpName}</h2>
 </template>
     
 <script>
