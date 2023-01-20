@@ -5,7 +5,7 @@ const { resolve, join } = require('node:path')
 const program = require('commander')
 
 program
-    .version('1.0.0')
+    .version('1.6.0')
     .description('Simple cli commands to generate components and views in vue projects')
 
 program
