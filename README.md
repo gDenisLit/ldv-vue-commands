@@ -26,4 +26,4 @@ The .scss file will be imported to the main style.scss file in the src directory
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/
+[MIT](https://choosealicense.com/licenses/mit/)
