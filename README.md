@@ -4,7 +4,7 @@ Simple commands for creating new components and views in Vue 3. This package was
 
 ## Installation
 ```bash
-npm install ldv
+npm install ldv --global
 ```
 
 ## Usage
